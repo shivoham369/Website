@@ -89,7 +89,7 @@ const cdevTeamMebers: Team[] = [
 const researchTeamMebers: Team[] = [
   {
     id: 1,
-    icon: "/images/user/user-01.png",
+    icon: "/images/wings/teampics/anshu-sharma.jpeg",
     title: "Anshu Sharma",
     designation: "Manager",
     role: "Research Wing",
