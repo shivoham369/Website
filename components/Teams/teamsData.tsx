@@ -3,7 +3,7 @@ import { Team, TeamSection } from "@/types/team";
 const GenSecMembers: Team[] = [
   {
     id: 1,
-    icon: "/images/team/Adwaaiit_Pande.jpg",
+    icon: "/images/wings/teampics/adwait2.webp",
     title: "Adwaaiit Pande",
     designation: "General Secretary",
     role: "AnC Council",
@@ -17,7 +17,7 @@ const GenSecMembers: Team[] = [
 const IsecMembers: Team[] = [
   {
     id: 1,
-    icon: "/images/team/Akshat_Dhote.jpg",
+    icon: "/images/wings/teampics/akshat2.webp",
     title: "Akshat Dhote",
     designation: "Institute Secretary",
     role: "IR and Research (UG)",
@@ -28,7 +28,7 @@ const IsecMembers: Team[] = [
   },
   {
     id: 2,
-    icon: "/images/team/Aryamann_Srivastava.jpg",
+    icon: "/images/wings/teampics/Aryamann.webp",
     title: "Aryamann Srivastava",
     designation: "Institute Secretary",
     role: "Career Development & UG Academics",
@@ -42,7 +42,7 @@ const IsecMembers: Team[] = [
 const cdevTeamMebers: Team[] = [
   {
     id: 1,
-    icon: "/images/team/Piyush_Prashant_Wagh.jpg",
+    icon: "/images/wings/teampics/piyush9.webp",
     title: "Piyush Prashant Wagh",
     designation: "Manager",
     role: "Career Development Wing",
@@ -53,7 +53,7 @@ const cdevTeamMebers: Team[] = [
   },
   {
     id: 2,
-    icon: "/images/team/Granth_Kothari.jpg",
+    icon: "/images/wings/teampics/granth.webp",
     title: "Granth Kothari",
     designation: "Manager",
     role: "Career Development Wing",
@@ -64,7 +64,7 @@ const cdevTeamMebers: Team[] = [
   },
   {
     id: 3,
-    icon: "/images/team/Saatvik_Singh.jpg",
+    icon: "/images/wings/teampics/saatvik.webp",
     title: "Saatvik Singh",
     designation: "Manager",
     role: "Career Development Wing",
@@ -75,7 +75,7 @@ const cdevTeamMebers: Team[] = [
   },
   {
     id: 4,
-    icon: "/images/team/Rudra_Sharma.jpg",
+    icon: "/images/wings/teampics/rudra2.webp",
     title: "Rudra Sharma",
     designation: "Manager",
     role: "Career Development Wing",
@@ -89,7 +89,7 @@ const cdevTeamMebers: Team[] = [
 const researchTeamMebers: Team[] = [
   {
     id: 1,
-    icon: "/images/team/Anshu_Sharma.jpg",
+    icon: "/images/user/user-01.png",
     title: "Anshu Sharma",
     designation: "Manager",
     role: "Research Wing",
@@ -100,7 +100,7 @@ const researchTeamMebers: Team[] = [
   },
   {
     id: 2,
-    icon: "/images/team/E_Nehasri.jpg",
+    icon: "/images/wings/teampics/neha.webp",
     title: "E Nehasri",
     designation: "Manager",
     role: "Research Wing (U.G.)",
@@ -111,7 +111,7 @@ const researchTeamMebers: Team[] = [
   },
   {
     id: 3,
-    icon: "/images/team/Antriksh_Singhal.jpg",
+    icon: "/images/wings/teampics/antriksh_research.webp",
     title: "Antriksh Singhal",
     designation: "Manager",
     role: "Research Wing (U.G.)",
@@ -125,7 +125,7 @@ const researchTeamMebers: Team[] = [
 const acadesTeamMebers: Team[] = [
   {
     id: 1,
-    icon: "/images/team/A_Sankara_Narayanan.jpg",
+    icon: "/images/wings/teampics/ashankarafinal.webp",
     title: "A Sankara Narayanan",
     designation: "Manager",
     role: "Academics Wing",
@@ -136,7 +136,7 @@ const acadesTeamMebers: Team[] = [
   },
   {
     id: 2,
-    icon: "/images/team/Pallav_Pratibh.jpg",
+    icon: "/images/wings/teampics/pallavfinal.webp",
     title: "Pallav Pratibh",
     designation: "Manager",
     role: "Academics Wing",
@@ -147,7 +147,7 @@ const acadesTeamMebers: Team[] = [
   },
   {
     id: 3,
-    icon: "/images/team/Iqra_Afreen.jpg",
+    icon: "/images/wings/teampics/iqrafinal.webp",
     title: "Iqra Afreen",
     designation: "Manager",
     role: "Academics Wing",
@@ -161,7 +161,7 @@ const acadesTeamMebers: Team[] = [
 const interNationalTeamMebers: Team[] = [
   {
     id: 1,
-    icon: "/images/team/Aditya_Goel.jpg",
+    icon: "/images/wings/teampics/aditya2.webp",
     title: "Aditya Goel",
     designation: "Manager",
     role: "International Relations Wing",
@@ -172,7 +172,7 @@ const interNationalTeamMebers: Team[] = [
   },
   {
     id: 2,
-    icon: "/images/team/Dipsikha_Rano.jpg",
+    icon: "/images/wings/teampics/dipshikha.webp",
     title: "Dipsikha Rano",
     designation: "Manager",
     role: "International Relations Wing",
@@ -183,7 +183,7 @@ const interNationalTeamMebers: Team[] = [
   },
   {
     id: 3,
-    icon: "/images/team/Sumit_Huddar.jpg",
+    icon: "/images/wings/teampics/sumith2.webp",
     title: "Sumit Huddar",
     designation: "Manager",
     role: "International Relations Wing",
@@ -194,7 +194,7 @@ const interNationalTeamMebers: Team[] = [
   },
   {
     id: 4,
-    icon: "/images/team/Kartikey_Singh_Tomar.jpg",
+    icon: "/images/wings/teampics/kartikey2.webp",
     title: "Kartikey Singh Tomar",
     designation: "Manager",
     role: "International Relations Wing",
@@ -205,7 +205,7 @@ const interNationalTeamMebers: Team[] = [
   },
   {
     id: 5,
-    icon: "/images/team/Anusha_Gupta.jpg",
+    icon: "/images/wings/teampics/ausha2.webp",
     title: "Anusha Gupta",
     designation: "Manager",
     role: "International Relations Wing",
@@ -219,7 +219,7 @@ const interNationalTeamMebers: Team[] = [
 const pclubTeamMebers: Team[] = [
   {
     id: 1,
-    icon: "/images/team/Aman_Agrawal.jpg",
+    icon: "/images/wings/teampics/aman2.webp",
     title: "Aman Agrawal",
     designation: "Coordinator",
     role: "Product Club",
@@ -230,7 +230,7 @@ const pclubTeamMebers: Team[] = [
   },
   {
     id: 2,
-    icon: "/images/team/Swayam_Agarwal.jpg",
+    icon: "/images/wings/teampics/swayam2.webp",
     title: "Swayam Agarwal",
     designation: "Coordinator",
     role: "Product Club",
@@ -241,7 +241,7 @@ const pclubTeamMebers: Team[] = [
   },
   {
     id: 3,
-    icon: "/images/team/Mitanshi_Khandelwal.jpg",
+    icon: "/images/wings/teampics/mitanshi2.webp",
     title: "Mitanshi Khandelwal",
     designation: "Coordinator",
     role: "Product Club",
@@ -252,7 +252,7 @@ const pclubTeamMebers: Team[] = [
   },
   {
     id: 4,
-    icon: "/images/team/Prakhar_Gupta.jpg",
+    icon: "/images/wings/teampics/prakhar.webp",
     title: "Prakhar Gupta",
     designation: "Coordinator",
     role: "Product Club",
@@ -266,7 +266,7 @@ const pclubTeamMebers: Team[] = [
 const outreachTeamMebers: Team[] = [
   {
     id: 1,
-    icon: "/images/team/Harshit_Saini.jpg",
+    icon: "/images/wings/teampics/harshit2.webp",
     title: "Harshit Saini",
     designation: "Coordinator",
     role: "Finance and Logistics",
@@ -277,7 +277,7 @@ const outreachTeamMebers: Team[] = [
   },
   {
     id: 2,
-    icon: "/images/team/Sumit_Roy.jpg",
+    icon: "/images/wings/teampics/sumitroy.webp",
     title: "Sumit Roy",
     designation: "Coordinator",
     role: "Finance and Logistics",
@@ -291,7 +291,7 @@ const outreachTeamMebers: Team[] = [
 const mediaTeamMebers: Team[] = [
   {
     id: 1,
-    icon: "/images/team/Anshika_Singh.jpg",
+    icon: "/images/wings/teampics/anshika.webp",
     title: "Anshika Singh",
     designation: "Coordinator",
     role: "Media and Publicity Wing",
@@ -302,7 +302,7 @@ const mediaTeamMebers: Team[] = [
   },
   {
     id: 2,
-    icon: "/images/team/Riddhi_Maheshwari.jpg",
+    icon: "/images/wings/teampics/riddhi.webp",
     title: "Riddhi Maheshwari",
     designation: "Coordinator",
     role: "Media and Publicity Wing",
@@ -316,7 +316,7 @@ const mediaTeamMebers: Team[] = [
 const webTeamMebers: Team[] = [
   {
     id: 1,
-    icon: "/images/team/Priya_Panwar.jpg",
+    icon: "/images/wings/teampics/priya2.webp",
     title: "Priya Panwar",
     designation: "Coordinator",
     role: "Web Wing",
@@ -327,7 +327,7 @@ const webTeamMebers: Team[] = [
   },
   {
     id: 2,
-    icon: "/images/team/Omprakash_Netam.jpg",
+    icon: "/images/wings/teampics/op.webp",
     title: "Omprakash Netam",
     designation: "Coordinator",
     role: "Web Wing",
@@ -341,7 +341,7 @@ const webTeamMebers: Team[] = [
 const igtsTeamMebers: Team[] = [
   {
     id: 1,
-    icon: "/images/team/Shihar_Gupta.jpg",
+    icon: "/images/wings/teampics/shikhar2.webp",
     title: "Shihar Gupta",
     designation: "Leader",
     role: "Indian Game Theory Society (IGTS)",
@@ -352,7 +352,7 @@ const igtsTeamMebers: Team[] = [
   },
   {
     id: 2,
-    icon: "/images/team/Pallav_Jain.jpg",
+    icon: "/images/wings/teampics/pallavigts.webp",
     title: "Pallav Jain",
     designation: "Leader",
     role: "Indian Game Theory Society (IGTS)",
@@ -363,7 +363,7 @@ const igtsTeamMebers: Team[] = [
   },
   {
     id: 3,
-    icon: "/images/team/Namya_Jarag.jpg",
+    icon: "/images/wings/teampics/namya2.webp",
     title: "Namya Jarag",
     designation: "Leader",
     role: "Indian Game Theory Society (IGTS)",
@@ -374,7 +374,7 @@ const igtsTeamMebers: Team[] = [
   },
   {
     id: 4,
-    icon: "/images/team/Moksh_Sanghavi.jpg",
+    icon: "/images/wings/teampics/moksh2.webp",
     title: "Moksh Sanghavi",
     designation: "Leader",
     role: "Indian Game Theory Society (IGTS)",
@@ -475,3 +475,4 @@ export {
   webTeamData,
   igtsTeamData,
 };
+
