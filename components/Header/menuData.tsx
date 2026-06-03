@@ -14,17 +14,10 @@ const menuData: Menu[] = [
     path: "/#features",
   },
   // {
-// <<<<<<< HEAD
   //   id: 2.1,
   //   title: "Blogs",
   //   newTab: false,
   //   path: "/blog",
-// =======
-  //  id: 2.1,
-  //  title: "Blogs",
-  //  newTab: false,
-  // path: "/blog",
-// >>>>>>> 08da51a8d0f861991d586837a15cf19c8a5456a9
   // },
   // {
   //   id: 2.3,
@@ -91,7 +84,7 @@ const menuData: Menu[] = [
     id: 5,
     title: "Contact Us",
     newTab: false,
-    path: "/team",
+    path: "/support",
   }
 ];
 
