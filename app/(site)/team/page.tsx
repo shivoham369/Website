@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import Team from "@/components/Teams";
 import SectionHeaderTop from "@/components/Common/SectionHeaderTop";
 import {
-  GensecData,
+  GenSecData,
   IsecData,
   cdevTeamData,
   researchTeamData,
