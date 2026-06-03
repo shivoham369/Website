@@ -31,7 +31,7 @@ export default function Home() {
       <div className="mt-50">
         <SectionHeaderTop headerInfo={headerInfo} />
       </div>
-      <Team teamSectionData={GensecData} />
+      <Team teamSectionData={GenSecData} />
       <Team teamSectionData={IsecData} />
       <Team teamSectionData={cdevTeamData} />
       <Team teamSectionData={researchTeamData} />
