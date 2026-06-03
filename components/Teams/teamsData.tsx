@@ -3,126 +3,401 @@ import { Team, TeamSection } from "@/types/team";
 const GenSecMembers: Team[] = [
   {
     id: 1,
-    icon: "/images/wings/GenSecy/Apoorv_Tandon.jpeg",
-    title: "Apoorv Tandon",
+    icon: "/images/team/Adwaaiit_Pande.jpg",
+    title: "Adwaaiit Pande",
     designation: "General Secretary",
     role: "AnC Council",
     description: "",
-    phone: "+91 9972213168",
+    phone: "+91 9372256863",
     email: "",
-    linkedin: "https://www.linkedin.com/in/apoorv-tandon-600a00249?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    linkedin: "https://www.linkedin.com/in/adwaaiitpande24/",
+  },
+];
+
+const IsecMembers: Team[] = [
+  {
+    id: 1,
+    icon: "/images/team/Akshat_Dhote.jpg",
+    title: "Akshat Dhote",
+    designation: "Institute Secretary",
+    role: "IR and Research (UG)",
+    description: "",
+    phone: "+91 9322058545",
+    email: "",
+    linkedin: "https://www.linkedin.com/in/akshat-dhote-9b1229241/",
   },
   {
     id: 2,
-    icon: "/images/wings/GenSecy/AmanShukla.jpg",
-    title: "Aman Shukla",
-    designation: "General Secretary (PG)",
-    role: "AnC Council",
+    icon: "/images/team/Aryamann_Srivastava.jpg",
+    title: "Aryamann Srivastava",
+    designation: "Institute Secretary",
+    role: "Career Development & UG Academics",
     description: "",
-    phone: "+91 9793306778",
+    phone: "+91 8395060000",
     email: "",
-    linkedin: "http://www.linkedin.com/in/aman-shukla-b610a52b6",
+    linkedin: "https://www.linkedin.com/in/aryamann-srivastava-033674280/",
   },
 ];
-const GensecData: TeamSection = {
-  title: "Meet Our",
-  subtitle: "General Secretary",
-  description:
-    "",
-  teams: GenSecMembers,
-};
-
-const IsecMembers: Team[] = [
-  
-  {
-    id: 4,
-    icon: "/images/wings/interNational/Sambuddha_Chakrabarti.jpg",
-    title: "Sambuddha Chakrabarti",
-    designation: "Institute Secretary",
-    role: " Academics and Research (UG)",
-    description: "",
-    phone: "+91 8910162235",
-    email: "",
-    linkedin: "http://www.linkedin.com/in/sambuddha-chakrabarti-343675252",
-  },
-  {
-    id: 3,
-    icon: "/images/wings/Isecy/aman.jpg",
-    title: "Aman Nigam",
-    designation: "Institute Secretary",
-    role: "Career Development & UG Academics",
-    description: "",
-    phone: "+91 6387057855",
-    email: "",
-    linkedin: "https://www.linkedin.com/in/aman-nigam-33a083225?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ",
-  },
-];
-const IsecData: TeamSection = {
-  title: "Meet Our",
-  subtitle: "Institute Secretary",
-  description:
-    "",
-  teams: IsecMembers,
-};
 
 const cdevTeamMebers: Team[] = [
   {
-    id: 6,
-    icon: "/images/wings/CareerWing/Granth_Kothari.jpeg",
-    title: "Granth Kothari",
-    designation: "Manager",
-    role: "Career Development Wing",
-    description: "https://www.linkedin.com/in/granthkothari",
-    phone: "+91 8529528390",
-    email: "",
-    linkedin: "",
-  },
-  {
-    id: 2,
-    icon: "/images/wings/CareerWing/Piyush_Prashant_Wagh.jpeg",
+    id: 1,
+    icon: "/images/team/Piyush_Prashant_Wagh.jpg",
     title: "Piyush Prashant Wagh",
     designation: "Manager",
     role: "Career Development Wing",
     description: "",
     phone: "+91 7796694430",
     email: "",
-    linkedin: "www.linkedin.com/in/piyushpwagh",
+    linkedin: "https://www.linkedin.com/in/piyushpwagh",
   },
   {
-    id: 5,
-    icon: "/images/wings/CareerWing/saatvik-singh.jpg.jpeg",
+    id: 2,
+    icon: "/images/team/Granth_Kothari.jpg",
+    title: "Granth Kothari",
+    designation: "Manager",
+    role: "Career Development Wing",
+    description: "",
+    phone: "+91 8529528390",
+    email: "",
+    linkedin: "https://www.linkedin.com/in/granthkothari/",
+  },
+  {
+    id: 3,
+    icon: "/images/team/Saatvik_Singh.jpg",
     title: "Saatvik Singh",
     designation: "Manager",
     role: "Career Development Wing",
     description: "",
-    phone: "+91 79775 98528",
+    phone: "+91 7977598528",
     email: "",
     linkedin: "https://www.linkedin.com/in/saatviksingh/",
   },
   {
-    id: 3,
-    icon: "/images/wings/CareerWing/rudra-sharma.jpeg",
+    id: 4,
+    icon: "/images/team/Rudra_Sharma.jpg",
     title: "Rudra Sharma",
     designation: "Manager",
     role: "Career Development Wing",
     description: "",
-    phone: "+91 80804 21500",
+    phone: "+91 8080421500",
     email: "",
-    linkedin: "https://www.linkedin.com/in/rudra-sharma-b9208b328/",
+    linkedin: "",
+  },
+];
+
+const researchTeamMebers: Team[] = [
+  {
+    id: 1,
+    icon: "/images/team/Anshu_Sharma.jpg",
+    title: "Anshu Sharma",
+    designation: "Manager",
+    role: "Research Wing",
+    description: "",
+    phone: "",
+    email: "",
+    linkedin: "",
+  },
+  {
+    id: 2,
+    icon: "/images/team/E_Nehasri.jpg",
+    title: "E Nehasri",
+    designation: "Manager",
+    role: "Research Wing (U.G.)",
+    description: "",
+    phone: "+91 9391268919",
+    email: "",
+    linkedin: "https://www.linkedin.com/in/neha-sri-eragandula-04a290367/",
+  },
+  {
+    id: 3,
+    icon: "/images/team/Antriksh_Singhal.jpg",
+    title: "Antriksh Singhal",
+    designation: "Manager",
+    role: "Research Wing (U.G.)",
+    description: "",
+    phone: "+91 9319715666",
+    email: "",
+    linkedin: "https://www.linkedin.com/in/antriksh-singhal-f105/",
+  },
+];
+
+const acadesTeamMebers: Team[] = [
+  {
+    id: 1,
+    icon: "/images/team/A_Sankara_Narayanan.jpg",
+    title: "A Sankara Narayanan",
+    designation: "Manager",
+    role: "Academics Wing",
+    description: "",
+    phone: "+91 8825922622",
+    email: "",
+    linkedin: "https://www.linkedin.com/in/a-sankara-narayanan/",
+  },
+  {
+    id: 2,
+    icon: "/images/team/Pallav_Pratibh.jpg",
+    title: "Pallav Pratibh",
+    designation: "Manager",
+    role: "Academics Wing",
+    description: "",
+    phone: "+91 6202038181",
+    email: "",
+    linkedin: "https://www.linkedin.com/in/pallav-pratibh-337528372/",
+  },
+  {
+    id: 3,
+    icon: "/images/team/Iqra_Afreen.jpg",
+    title: "Iqra Afreen",
+    designation: "Manager",
+    role: "Academics Wing",
+    description: "",
+    phone: "+91 7985111736",
+    email: "",
+    linkedin: "",
+  },
+];
+
+const interNationalTeamMebers: Team[] = [
+  {
+    id: 1,
+    icon: "/images/team/Aditya_Goel.jpg",
+    title: "Aditya Goel",
+    designation: "Manager",
+    role: "International Relations Wing",
+    description: "",
+    phone: "+91 8960424324",
+    email: "",
+    linkedin: "https://www.linkedin.com/in/aditya-goel-083426314/",
+  },
+  {
+    id: 2,
+    icon: "/images/team/Dipsikha_Rano.jpg",
+    title: "Dipsikha Rano",
+    designation: "Manager",
+    role: "International Relations Wing",
+    description: "",
+    phone: "+91 9073384322",
+    email: "",
+    linkedin: "https://www.linkedin.com/in/dipsikha-rano-9a4800388/",
+  },
+  {
+    id: 3,
+    icon: "/images/team/Sumit_Huddar.jpg",
+    title: "Sumit Huddar",
+    designation: "Manager",
+    role: "International Relations Wing",
+    description: "",
+    phone: "+91 9668084208",
+    email: "",
+    linkedin: "https://www.linkedin.com/in/sumit-huddar-a64a02312/",
   },
   {
     id: 4,
-    icon: "/images/wings/CareerWing/Aditya_Sati .jpg",
-    title: "Aditya Sati",
+    icon: "/images/team/Kartikey_Singh_Tomar.jpg",
+    title: "Kartikey Singh Tomar",
     designation: "Manager",
-    role: "Career Development Wing",
+    role: "International Relations Wing",
     description: "",
-    phone: "+91 9634126470",
+    phone: "+91 9131030989",
     email: "",
-    linkedin: "https://www.linkedin.com/in/aditya-sati-55a94a2a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    linkedin: "https://www.linkedin.com/in/kartikey-tomar-72b29b338/",
   },
-  
+  {
+    id: 5,
+    icon: "/images/team/Anusha_Gupta.jpg",
+    title: "Anusha Gupta",
+    designation: "Manager",
+    role: "International Relations Wing",
+    description: "",
+    phone: "+91 7875705353",
+    email: "",
+    linkedin: "https://www.linkedin.com/in/anusha-gupta-33b429330/",
+  },
 ];
+
+const pclubTeamMebers: Team[] = [
+  {
+    id: 1,
+    icon: "/images/team/Aman_Agrawal.jpg",
+    title: "Aman Agrawal",
+    designation: "Coordinator",
+    role: "Product Club",
+    description: "",
+    phone: "+91 9174470080",
+    email: "",
+    linkedin: "https://www.linkedin.com/in/aman-agrawal-80b630315/",
+  },
+  {
+    id: 2,
+    icon: "/images/team/Swayam_Agarwal.jpg",
+    title: "Swayam Agarwal",
+    designation: "Coordinator",
+    role: "Product Club",
+    description: "",
+    phone: "+91 7002738453",
+    email: "",
+    linkedin: "https://www.linkedin.com/in/swayam-agarwal-9a7a091b0/",
+  },
+  {
+    id: 3,
+    icon: "/images/team/Mitanshi_Khandelwal.jpg",
+    title: "Mitanshi Khandelwal",
+    designation: "Coordinator",
+    role: "Product Club",
+    description: "",
+    phone: "+91 9131430062",
+    email: "",
+    linkedin: "https://www.linkedin.com/in/mitanshi-khandelwal-aa6400323/",
+  },
+  {
+    id: 4,
+    icon: "/images/team/Prakhar_Gupta.jpg",
+    title: "Prakhar Gupta",
+    designation: "Coordinator",
+    role: "Product Club",
+    description: "",
+    phone: "+91 8140511723",
+    email: "",
+    linkedin: "https://www.linkedin.com/in/prakhar-gupta-62522631a/",
+  },
+];
+
+const outreachTeamMebers: Team[] = [
+  {
+    id: 1,
+    icon: "/images/team/Harshit_Saini.jpg",
+    title: "Harshit Saini",
+    designation: "Coordinator",
+    role: "Finance and Logistics",
+    description: "",
+    phone: "+91 8474999567",
+    email: "",
+    linkedin: "https://www.linkedin.com/in/harshit-saini-35aa97337/",
+  },
+  {
+    id: 2,
+    icon: "/images/team/Sumit_Roy.jpg",
+    title: "Sumit Roy",
+    designation: "Coordinator",
+    role: "Finance and Logistics",
+    description: "",
+    phone: "+91 6291502488",
+    email: "",
+    linkedin: "https://www.linkedin.com/in/sumit-roy-01689531a/",
+  },
+];
+
+const mediaTeamMebers: Team[] = [
+  {
+    id: 1,
+    icon: "/images/team/Anshika_Singh.jpg",
+    title: "Anshika Singh",
+    designation: "Coordinator",
+    role: "Media and Publicity Wing",
+    description: "",
+    phone: "+91 9305392439",
+    email: "",
+    linkedin: "https://www.linkedin.com/in/anshika-singh-880831346/",
+  },
+  {
+    id: 2,
+    icon: "/images/team/Riddhi_Maheshwari.jpg",
+    title: "Riddhi Maheshwari",
+    designation: "Coordinator",
+    role: "Media and Publicity Wing",
+    description: "",
+    phone: "+91 8824282797",
+    email: "",
+    linkedin: "https://www.linkedin.com/in/riddhi-maheshwari-95077b369/",
+  },
+];
+
+const webTeamMebers: Team[] = [
+  {
+    id: 1,
+    icon: "/images/team/Priya_Panwar.jpg",
+    title: "Priya Panwar",
+    designation: "Coordinator",
+    role: "Web Wing",
+    description: "",
+    phone: "+91 8750575744",
+    email: "",
+    linkedin: "https://www.linkedin.com/in/priya-panwar-546216371/",
+  },
+  {
+    id: 2,
+    icon: "/images/team/Omprakash_Netam.jpg",
+    title: "Omprakash Netam",
+    designation: "Coordinator",
+    role: "Web Wing",
+    description: "",
+    phone: "+91 6264577461",
+    email: "",
+    linkedin: "https://www.linkedin.com/in/omprakash-netam-b2b019368/",
+  },
+];
+
+const igtsTeamMebers: Team[] = [
+  {
+    id: 1,
+    icon: "/images/team/Shihar_Gupta.jpg",
+    title: "Shihar Gupta",
+    designation: "Leader",
+    role: "Indian Game Theory Society (IGTS)",
+    description: "",
+    phone: "+91 9140375292",
+    email: "",
+    linkedin: "https://www.linkedin.com/in/shikhar-gupta-0633a9250/",
+  },
+  {
+    id: 2,
+    icon: "/images/team/Pallav_Jain.jpg",
+    title: "Pallav Jain",
+    designation: "Leader",
+    role: "Indian Game Theory Society (IGTS)",
+    description: "",
+    phone: "+91 8928773112",
+    email: "",
+    linkedin: "https://www.linkedin.com/in/pallav-jain-312829327/",
+  },
+  {
+    id: 3,
+    icon: "/images/team/Namya_Jarag.jpg",
+    title: "Namya Jarag",
+    designation: "Leader",
+    role: "Indian Game Theory Society (IGTS)",
+    description: "",
+    phone: "+91 9825126240",
+    email: "",
+    linkedin: "https://www.linkedin.com/in/namya-jarag/",
+  },
+  {
+    id: 4,
+    icon: "/images/team/Moksh_Sanghavi.jpg",
+    title: "Moksh Sanghavi",
+    designation: "Leader",
+    role: "Indian Game Theory Society (IGTS)",
+    description: "",
+    phone: "+91 8128998432",
+    email: "",
+    linkedin: "https://www.linkedin.com/in/moksh-sanghavi-659524313/",
+  },
+];
+
+const GenSecData: TeamSection = {
+  title: "Meet Our",
+  subtitle: "General Secretary",
+  description: "",
+  teams: GenSecMembers,
+};
+
+const IsecData: TeamSection = {
+  title: "Meet Our",
+  subtitle: "Institute Secretary",
+  description: "",
+  teams: IsecMembers,
+};
 
 const cdevTeamData: TeamSection = {
   title: "Meet Our",
@@ -131,88 +406,12 @@ const cdevTeamData: TeamSection = {
   teams: cdevTeamMebers,
 };
 
-const researchTeamMebers: Team[] = [
-
-
-  {
-    id: 5,
-    icon: "/images/wings/research/Nirjala.jpg",
-    title: "Nirjala Kushwaha",
-    designation: "Manager",
-    role: "Reserach Wing (U.G.)",
-    description: "",
-    phone: "+91 7985086504",
-    email: "",
-    linkedin: "https://www.linkedin.com/in/nirjala-kushwaha-5a2b47315/",
-  },
-
-  {
-    id: 4,
-    icon: "/images/wings/research/susruth.jpg",
-    title: "Vattikuti Susruth",
-    designation: "Manager",
-    role: "Reserach Wing (U.G.)",
-    description: "",
-    phone: "+91 9391478386",
-    email: "",
-    linkedin: "https://www.linkedin.com/in/vattikuti-susruth-0b4861289/",
-  },
-
-  {
-    id: 6,
-    icon: "/images/wings/research/mayank.jpg",
-    title: "Mayank Agrawal",
-    designation: "Manager",
-    role: "Reserach Wing (U.G.)",
-    description: "",
-    phone: "+91 9257266696",
-    email: "",
-    linkedin: "https://www.linkedin.com/in/mayank-agrawal-64a120290?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BboNwUiJ0T3iDlx1DCIk1jQ%3D%3D",
-  },
-];
-
 const researchTeamData: TeamSection = {
   title: "Meet Our",
   subtitle: "Research Wing",
   description: "Innovators driving progress, contact us for any questions",
   teams: researchTeamMebers,
 };
-
-const acadesTeamMebers: Team[] = [
-  {
-    id: 1,
-    icon: "/images/wings/AcademicsWing/saarthak.png",
-    title: "Sarthak Singh",
-    designation: "Manager",
-    role: "Academics Wing",
-    description: "",
-    phone: "+91 6232512729",
-    email: "",
-    linkedin: "https://www.linkedin.com/in/sarthak-singh-824937287/",
-  },
-  {
-    id: 2,
-    icon: "/images/wings/AcademicsWing/pooja.jpeg",
-    title: "Pooja Kumari",
-    designation: "Manager",
-    role: "Academics Wing",
-    description: "",
-    phone: "+91 9155017322",
-    email: "",
-    linkedin: "https://www.linkedin.com/in/pooja-kumari-482410295/",
-  },
-  {
-    id: 3,
-    icon: "/images/wings/AcademicsWing/chirag.jpg",
-    title: "Chirag Goyal",
-    designation: "Manager",
-    role: "Academics Wing",
-    description: "",
-    phone: "+91 9828436849",
-    email: "",
-    linkedin: "https://www.linkedin.com/in/chirag-goyal-73aab0299/",
-  },
-];
 
 const acadesTeamData: TeamSection = {
   title: "Meet Our",
@@ -221,44 +420,6 @@ const acadesTeamData: TeamSection = {
   teams: acadesTeamMebers,
 };
 
-const interNationalTeamMebers: Team[] = [
-  {
-    id: 1,
-    icon: "/images/wings/interNational/Vaibhav Kumar.jpg",
-    title: "Vaibhav Kumar",
-    designation: "Manager",
-    role: "International Relations Wing",
-    description: "",
-    phone: "+91 6307807237",
-    email: "",
-    linkedin:
-      "https://www.linkedin.com/in/vaibhav-kumar-43b3b5298",
-  },
-  {
-    id: 2,
-    icon: "/images/wings/interNational/Aaryan.jpg",
-    title: "Aaryan Chandra",
-    designation: "Manager",
-    role: "International Relations Wing",
-    description: "",
-    phone: "+91 9315210739",
-    email: "",
-    linkedin:
-      "https://www.linkedin.com/in/aaryan-chandra-080347166?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-  },
-  {
-    id: 3,
-    icon: "/images/wings/interNational/divi.png",
-    title: "Divi Pothukuchi",
-    designation: "Manager",
-    role: "International Relations Wing",
-    description: "",
-    phone: "+91 9884097619",
-    email: "",
-    linkedin: "https://www.linkedin.com/in/divi-pothukuchi-645867281/",
-  },
-];
-
 const interNationalTeamData: TeamSection = {
   title: "Meet Our",
   subtitle: "International Relations Wing",
@@ -266,90 +427,12 @@ const interNationalTeamData: TeamSection = {
   teams: interNationalTeamMebers,
 };
 
-const pclubTeamMebers: Team[] = [
-  {
-    id: 1,
-    icon: "/images/wings/ProductClub/Sanket.jpeg",
-    title: "Sanket Bansal",
-    designation: "Coordinator",
-    role: "Product Club",
-    description: "",
-    phone: "+91 8875949327",
-    email: "",
-    linkedin: "https://www.linkedin.com/in/sanket-bansal-304823299/",
-  },
-  {
-    id: 2,
-    icon: "/images/wings/ProductClub/mahi.jpeg",
-    title: "Mahi Mittal",
-    designation: "Coordinator",
-    role: "Product Club",
-    description: "",
-    phone: "+91 9686000226",
-    email: "",
-    linkedin:
-      "https://www.linkedin.com/in/mahi-mittal-3b2433283/",
-  },
-  {
-    id: 3,
-    icon: "/images/wings/ProductClub/vinayak.jpg",
-    title: "Vinayak Dalmia",
-    designation: "Coordinator",
-    role: "Product Club",
-    description: "",
-    phone: "+91 7985872181",
-    email: "",
-    linkedin:
-      "https://www.linkedin.com/in/vinayak-dalmia-674540236?",
-  },
-  {
-    id: 4,
-    icon: "/images/wings/ProductClub/neeru.jpg",
-    title: "Neeru",
-    designation: "Coordinator",
-    role: "Product Club",
-    description: "",
-    phone: "+91 9812753081",
-    email: "",
-    linkedin: "https://www.linkedin.com/in/neeru-nagra-9327a5309/",
-  },
-  
-];
-
 const pclubTeamData: TeamSection = {
   title: "Meet Our",
   subtitle: "Product Club Team",
-  description:
-    "Creators of cutting-edge solutions, reach out for any questions",
+  description: "Creators of cutting-edge solutions, reach out for any questions",
   teams: pclubTeamMebers,
 };
-
-const outreachTeamMebers: Team[] = [
-  {
-    id: 1,
-    icon: "/images/wings/Outreach/Aryaman.jpg",
-    title: "Aryaman",
-    designation: "Coordinator",
-    role: "Outreach and Finance",
-    description: "",
-    phone: "+91 7292802217",
-    email: "",
-    linkedin:
-      "http://linkedin.com/in/aryaman-95b392284",
-  },
-  {
-    id: 2,
-    icon: "/images/wings/Outreach/Rupant.jpg",
-    title: "Rupant Dixit",
-    designation: "Coordinator",
-    role: "Outreach and Finance",
-    description: "",
-    phone: "+91 6355635866",
-    email: "",
-    linkedin:
-      "https://www.linkedin.com/in/rupant-dixit-472a1828b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-  },
-];
 
 const outreachTeamData: TeamSection = {
   title: "Meet Our",
@@ -358,66 +441,12 @@ const outreachTeamData: TeamSection = {
   teams: outreachTeamMebers,
 };
 
-const mediaTeamMebers: Team[] = [
-  {
-    id: 1,
-    icon: "/images/wings/media/Anshika.jpg",
-    title: "Anshika Singh",
-    designation: "Coordinator",
-    role: "Media and Publicity Wing",
-    description: "",
-    phone: "+91 8922842931",
-    email: "",
-    linkedin:
-      "https://www.linkedin.com/in/anshika-singh-3b2409245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-  },
-  {
-    id: 2,
-    icon: "/images/wings/media/Abhay.jpg",
-    title: "Abhay Tripathi",
-    designation: "Coordinator",
-    role: "Media and Publicity Wing",
-    description: "",
-    phone: "+91 9369555861",
-    email: "",
-    linkedin:
-      "https://www.linkedin.com/in/abhay-tripathi-5733b7293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-  },
-];
-
 const mediaTeamData: TeamSection = {
   title: "Meet Our",
   subtitle: "Media and Publicity Wing",
   description: "Leading the way in media solutions, we're here to assist you",
   teams: mediaTeamMebers,
 };
-
-const webTeamMebers: Team[] = [
-  {
-    id: 1,
-    icon: "/images/wings/web/Palak_photo.jpg",
-    title: "Palak Agarwal",
-    designation: "Coordinator",
-    role: "Web Wing",
-    description: "",
-    phone: "+91 8090216122",
-    email: "",
-    linkedin:
-      "https://www.linkedin.com/in/palak-agarwal-8261b7280/",
-  },
-  {
-    id: 2,
-    icon: "/images/wings/web/Abhinav_Pandey.jpg",
-    title: "Omprakash Netam",
-    designation: "Coordinator",
-    role: "Web Wing",
-    description: "",
-    phone: "+91 6264577461",
-    email: "",
-    linkedin:
-      "https://www.linkedin.com/in/omprakash-netam-b2b019368/?skipRedirect=true",
-  },
-];
 
 const webTeamData: TeamSection = {
   title: "Meet Our",
@@ -426,8 +455,15 @@ const webTeamData: TeamSection = {
   teams: webTeamMebers,
 };
 
+const igtsTeamData: TeamSection = {
+  title: "Meet Our",
+  subtitle: "Indian Game Theory Society (IGTS)",
+  description: "",
+  teams: igtsTeamMebers,
+};
+
 export {
-  GensecData,
+  GenSecData,
   IsecData,
   cdevTeamData,
   researchTeamData,
@@ -436,5 +472,6 @@ export {
   pclubTeamData,
   outreachTeamData,
   mediaTeamData,
-  webTeamData
+  webTeamData,
+  igtsTeamData,
 };
